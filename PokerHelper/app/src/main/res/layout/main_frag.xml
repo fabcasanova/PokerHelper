@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#f8ccb8"
+    android:layout_height="match_parent"
+    android:id="@+id/menu_frag"
+    tools:context="com.phatsmalone.fragments.MenuFragment">
+
+        <Button
+            android:id="@+id/add_player"
+            android:layout_width="194dp"
+            android:layout_height="42dp"
+            android:layout_marginStart="108dp"
+            android:layout_marginTop="76dp"
+            android:text="@string/add_new_player"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+        <Button
+            android:id="@+id/open_existing"
+            android:layout_width="194dp"
+            android:layout_height="42dp"
+            android:layout_marginStart="108dp"
+            android:layout_marginTop="156dp"
+            android:text="@string/open_existing"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="212dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="96dp"
+            android:text="@string/app_name"
+            android:textSize="36sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/pot_odds"
+            android:layout_width="194dp"
+            android:layout_height="42dp"
+            android:layout_marginStart="108dp"
+            android:layout_marginTop="232dp"
+            android:text="@string/pot_odds"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+        <TextView
+            android:id="@+id/dev"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="216dp"
+            android:layout_marginBottom="36dp"
+            android:text="@string/dev_name"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

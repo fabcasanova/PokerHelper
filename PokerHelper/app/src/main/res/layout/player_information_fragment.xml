@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/player_info"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f8ccb8"
+    tools:context="com.phatsmalone.fragments.PlayerInformationFrag">
+
+    <Spinner
+        android:id="@+id/playernames_spinner"
+        android:layout_width="213dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="56dp"
+        app:layout_constraintStart_toEndOf="@+id/player_name"
+        app:layout_constraintTop_toBottomOf="@+id/playerinfo_title" />
+
+    <TextView
+        android:id="@+id/dev"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="216dp"
+        android:layout_marginBottom="36dp"
+        android:text="@string/dev_name"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/playerinfo_title"
+        android:layout_width="251dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="28dp"
+        android:text="@string/player_info_title"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/playerposition"
+        android:layout_width="87dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="48dp"
+        android:text="@string/playerposition"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/player_name" />
+
+    <Button
+        android:id="@+id/handrange_button"
+        android:layout_width="83dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="40dp"
+        android:text="Range"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/player_positions" />
+
+    <TextView
+        android:id="@+id/handrange_title"
+        android:layout_width="88dp"
+        android:layout_height="17dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="48dp"
+        android:text="@string/handrange"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/playerposition" />
+
+    <Button
+        android:id="@+id/updatebutton"
+        android:layout_width="136dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="120dp"
+        android:text="Back"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/player_notes" />
+
+    <TextView
+        android:id="@+id/playernotes_input"
+        android:layout_width="45dp"
+        android:layout_height="19dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="64dp"
+        android:text="@string/playernotes"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/handrange_title" />
+
+    <Spinner
+        android:id="@+id/player_positions"
+        android:layout_width="215dp"
+        android:layout_height="27dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="48dp"
+        android:entries="@array/positionnames"
+        app:layout_constraintStart_toEndOf="@+id/playerposition"
+        app:layout_constraintTop_toBottomOf="@+id/playernames_spinner" />
+
+    <TextView
+        android:id="@+id/player_name"
+        android:layout_width="91dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="124dp"
+        android:text="@string/playername"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/handrange_io"
+        android:layout_width="140dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="48dp"
+        android:ems="10"
+        app:layout_constraintEnd_toStartOf="@+id/handrange_button"
+        app:layout_constraintHorizontal_bias="0.72"
+        app:layout_constraintStart_toEndOf="@+id/handrange_title"
+        app:layout_constraintTop_toBottomOf="@+id/player_positions" />
+
+    <EditText
+        android:id="@+id/player_notes"
+        android:layout_width="267dp"
+        android:layout_height="110dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="40dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toEndOf="@+id/playernotes_input"
+        app:layout_constraintTop_toBottomOf="@+id/handrange_io" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,2232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/handrange_grid"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:paddingLeft="1dp"
+    tools:context="com.phatsmalone.fragments.HandRangeFrag">
+
+
+    <ToggleButton
+        android:id="@+id/_65o"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_row="9"
+        android:layout_column="8"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="6dp"
+        android:textOn="65o"
+        android:textOff="65o"
+        android:textDirection="ltr"
+        android:textSize="9sp" />
+
+    <ToggleButton
+        android:id="@+id/Q5o"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_row="9"
+        android:layout_column="2"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="6dp"
+        android:textOn="Q5o"
+        android:textOff="Q5o"
+        android:textDirection="ltr"
+        android:textSize="9sp" />
+
+    <ToggleButton
+        android:id="@+id/_86o"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_row="8"
+        android:layout_column="6"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="6dp"
+        android:textOn="86o"
+        android:textOff="86o"
+        android:textDirection="ltr"
+        android:textSize="9sp" />
+
+    <ToggleButton
+        android:id="@+id/AKs"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_row="0"
+        android:layout_column="1"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="6dp"
+        android:textOn="AKs"
+        android:textOff="AKs"
+        android:textDirection="ltr"
+        android:textSize="9sp" />
+
+    <ToggleButton
+        android:id="@+id/_83s"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_row="6"
+        android:layout_column="11"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="6dp"
+        android:textOn="83s"
+        android:textOff="83s"
+        android:textDirection="ltr"
+        android:textSize="9sp" />
+
+    <ToggleButton
+        android:id="@+id/_84s"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_row="6"
+        android:layout_column="10"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="6dp"
+        android:textOn="84s"
+        android:textOff="84S"
+        android:textDirection="ltr"
+        android:textSize="9sp" />
+
+    <ToggleButton
+        android:id="@+id/_97s"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_row="5"
+        android:layout_column="7"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="6dp"
+        android:textOn="97s"
+        android:textOff="97s"
+        android:textDirection="ltr"
+        android:textSize="9sp" />
+
+    <ToggleButton
+        android:id="@+id/_98s"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_row="5"
+        android:layout_column="6"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="6dp"
+        android:textOn="98s"
+        android:textOff="98s"
+        android:textDirection="ltr"
+        android:textSize="9sp" />
+
+    <ToggleButton
+        android:id="@+id/T9o"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_row="5"
+        android:layout_column="4"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="6dp"
+        android:textOn="T9o"
+        android:textOff="T9o"
+        android:textDirection="ltr"
+        android:textSize="9sp" />
+
+    <ToggleButton
+        android:id="@+id/_85s"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_row="6"
+        android:layout_column="9"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="6dp"
+        android:textOn="85s"
+        android:textOff="85S"
+        android:textDirection="ltr"
+        android:textSize="9sp" />
+
+    <ToggleButton
+        android:id="@+id/_86s"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_row="6"
+        android:layout_column="8"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="6dp"
+        android:textOn="86s"
+        android:textOff="86S"
+        android:textDirection="ltr"
+        android:textSize="9sp" />
+
+    <ToggleButton
+        android:id="@+id/_98o"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_row="6"
+        android:layout_column="5"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="6dp"
+        android:textOn="98o"
+        android:textOff="98o"
+        android:textDirection="ltr"
+        android:textSize="9sp" />
+
+    <ToggleButton
+        android:id="@+id/_73s"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_row="7"
+        android:layout_column="11"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="6dp"
+        android:textOn="73s"
+        android:textOff="73s"
+        android:textDirection="ltr"
+        android:textSize="9sp" />
+
+    <ToggleButton
+        android:id="@+id/K8o"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_row="6"
+        android:layout_column="1"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="6dp"
+        android:textOn="K8o"
+        android:textOff="K8o"
+        android:textDirection="ltr"
+        android:textSize="9sp" />
+
+    <ToggleButton
+        android:id="@+id/_75s"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_row="7"
+        android:layout_column="9"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="6dp"
+        android:textOn="75s"
+        android:textOff="75s"
+        android:textDirection="ltr"
+        android:textSize="9sp" />
+
+    <ToggleButton
+        android:id="@+id/_76s"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_row="7"
+        android:layout_column="8"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="6dp"
+        android:textOn="76s"
+        android:textOff="76s"
+        android:textDirection="ltr"
+        android:textSize="9sp" />
+
+    <ToggleButton
+        android:id="@+id/_82s"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_row="6"
+        android:layout_column="12"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="6dp"
+        android:textOn="82s"
+        android:textOff="82S"
+        android:textDirection="ltr"
+        android:textSize="9sp" />
+
+    <ToggleButton
+        android:id="@+id/_87o"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_row="7"
+        android:layout_column="6"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="6dp"
+        android:textOn="87o"
+        android:textOff="87o"
+        android:textDirection="ltr"
+        android:textSize="9sp" />
+
+    <ToggleButton
+        android:id="@+id/J7o"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_row="7"
+        android:layout_column="3"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="6dp"
+        android:textOn="J7o"
+        android:textOff="J7o"
+        android:textDirection="ltr"
+        android:textSize="9sp" />
+
+    <ToggleButton
+        android:id="@+id/K7o"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_row="7"
+        android:layout_column="1"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="6dp"
+        android:textOn="K7o"
+        android:textOff="K7o"
+        android:textDirection="ltr"
+        android:textSize="9sp" />
+
+    <ToggleButton
+        android:id="@+id/T6o"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_row="8"
+        android:layout_column="4"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="6dp"
+        android:textOn="T6o"
+        android:textOff="T6o"
+        android:textDirection="ltr"
+        android:textSize="9sp" />
+
+    <ToggleButton
+        android:id="@+id/_96o"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_row="8"
+        android:layout_column="5"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="6dp"
+        android:textOn="96o"
+        android:textOff="96o"
+        android:textDirection="ltr"
+        android:textSize="9sp" />
+
+    <ToggleButton
+        android:id="@+id/J6o"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_row="8"
+        android:layout_column="3"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="6dp"
+        android:textOn="J6o"
+        android:textOff="J6o"
+        android:textDirection="ltr"
+        android:textSize="9sp" />
+
+    <ToggleButton
+        android:id="@+id/K6o"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_row="8"
+        android:layout_column="1"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="6dp"
+        android:textOn="K6o"
+        android:textOff="K6o"
+        android:textDirection="ltr"
+        android:textSize="9sp" />
+
+    <ToggleButton
+        android:id="@+id/_76o"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_row="8"
+        android:layout_column="7"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="6dp"
+        android:textOn="76o"
+        android:textOff="76o"
+        android:textDirection="ltr"
+        android:textSize="9sp" />
+
+    <ToggleButton
+        android:id="@+id/_65s"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_row="8"
+        android:layout_column="9"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="6dp"
+        android:textOn="65s"
+        android:textOff="65s"
+        android:textDirection="ltr"
+        android:textSize="9sp" />
+
+    <ToggleButton
+        android:id="@+id/_64s"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_row="8"
+        android:layout_column="10"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="6dp"
+        android:textOn="64s"
+        android:textOff="64s"
+        android:textDirection="ltr"
+        android:textSize="9sp" />
+
+    <ToggleButton
+        android:id="@+id/_63s"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_row="8"
+        android:layout_column="11"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="6dp"
+        android:textOn="63s"
+        android:textOff="63s"
+        android:textDirection="ltr"
+        android:textSize="9sp" />
+
+    <ToggleButton
+        android:id="@+id/_85o"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_row="9"
+        android:layout_column="6"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="6dp"
+        android:textOn="85o"
+        android:textOff="85o"
+        android:textDirection="ltr"
+        android:textSize="9sp" />
+
+    <ToggleButton
+        android:id="@+id/J9o"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_row="5"
+        android:layout_column="3"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="6dp"
+        android:textOn="J9o"
+        android:textOff="J9o"
+        android:textDirection="ltr"
+        android:textSize="9sp" />
+
+    <ToggleButton
+        android:id="@+id/A2s"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_row="0"
+        android:layout_column="12"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="6dp"
+        android:textOn="A2s"
+        android:textOff="A2s"
+        android:textDirection="ltr"
+        android:textSize="9sp" />
+
+    <ToggleButton
+        android:id="@+id/A3s"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_row="0"
+        android:layout_column="11"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="6dp"
+        android:textOn="A3s"
+        android:textOff="A3s"
+        android:textDirection="ltr"
+        android:textSize="9sp" />
+
+    <ToggleButton
+        android:id="@+id/A4s"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_row="0"
+        android:layout_column="10"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="6dp"
+        android:textOn="A4s"
+        android:textOff="A4s"
+        android:textDirection="ltr"
+        android:textSize="9sp" />
+
+    <ToggleButton
+        android:id="@+id/A5s"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_row="0"
+        android:layout_column="9"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="6dp"
+        android:textOn="A5s"
+        android:textOff="A5s"
+        android:textDirection="ltr"
+        android:textSize="9sp" />
+
+    <ToggleButton
+        android:id="@+id/A6s"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_row="0"
+        android:layout_column="8"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="6dp"
+        android:textOn="A6s"
+        android:textOff="A6s"
+        android:textDirection="ltr"
+        android:textSize="9sp" />
+
+    <ToggleButton
+        android:id="@+id/A7s"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_row="0"
+        android:layout_column="7"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="6dp"
+        android:textOn="A7s"
+        android:textOff="A7s"
+        android:textDirection="ltr"
+        android:textSize="9sp" />
+
+    <ToggleButton
+        android:id="@+id/A8s"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_row="0"
+        android:layout_column="6"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="6dp"
+        android:textOn="A8s"
+        android:textOff="A8s"
+        android:textDirection="ltr"
+        android:textSize="9sp" />
+
+    <ToggleButton
+        android:id="@+id/A9s"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_row="0"
+        android:layout_column="5"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="6dp"
+        android:textOn="A9s"
+        android:textOff="A9s"
+        android:textDirection="ltr"
+        android:textSize="9sp" />
+
+    <ToggleButton
+        android:id="@+id/ATs"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_row="0"
+        android:layout_column="4"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="6dp"
+        android:textOn="ATs"
+        android:textOff="ATs"
+        android:textDirection="ltr"
+        android:textSize="9sp" />
+
+    <ToggleButton
+        android:id="@+id/AJs"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_row="0"
+        android:layout_column="3"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="6dp"
+        android:textOn="AJs"
+        android:textOff="AJs"
+        android:textDirection="ltr"
+        android:textSize="9sp" />
+
+    <ToggleButton
+        android:id="@+id/T7s"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_row="4"
+        android:layout_column="7"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="6dp"
+        android:textOn="T7s"
+        android:textOff="T7s"
+        android:textDirection="ltr"
+        android:textSize="9sp" />
+
+    <ToggleButton
+        android:id="@+id/AA"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_row="0"
+        android:layout_column="0"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="6dp"
+        android:textDirection="ltr"
+        android:textOff="AAp"
+        android:textOn="AAp"
+        android:textSize="9sp"
+        />
+
+    <ToggleButton
+        android:id="@+id/Q9s"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_row="2"
+        android:layout_column="5"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="6dp"
+        android:textOn="Q9s"
+        android:textOff="Q9s"
+        android:textDirection="ltr"
+        android:textSize="9sp" />
+
+    <ToggleButton
+        android:id="@+id/T6s"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_row="4"
+        android:layout_column="8"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="6dp"
+        android:textOn="T6s"
+        android:textOff="T6s"
+        android:textDirection="ltr"
+        android:textSize="9sp" />
+
+    <ToggleButton
+        android:id="@+id/J6s"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_row="3"
+        android:layout_column="8"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="6dp"
+        android:textOn="J6s"
+        android:textOff="J6s"
+        android:textDirection="ltr"
+        android:textSize="9sp" />
+
+    <ToggleButton
+        android:id="@+id/T4s"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_row="4"
+        android:layout_column="10"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="6dp"
+        android:textOn="T4s"
+        android:textOff="T4s"
+        android:textDirection="ltr"
+        android:textSize="9sp" />
+
+    <ToggleButton
+        android:id="@+id/J2s"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_row="3"
+        android:layout_column="12"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="6dp"
+        android:textOn="J2s"
+        android:textOff="J2s"
+        android:textDirection="ltr"
+        android:textSize="9sp" />
+
+    <ToggleButton
+        android:id="@+id/QTo"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_row="4"
+        android:layout_column="2"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="6dp"
+        android:textOn="QTo"
+        android:textOff="QTo"
+        android:textDirection="ltr"
+        android:textSize="9sp" />
+
+    <ToggleButton
+        android:id="@+id/_95s"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_row="5"
+        android:layout_column="9"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="6dp"
+        android:textOn="95s"
+        android:textOff="95s"
+        android:textDirection="ltr"
+        android:textSize="9sp" />
+
+    <ToggleButton
+        android:id="@+id/_93s"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_row="5"
+        android:layout_column="11"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="6dp"
+        android:textOn="93s"
+        android:textOff="93s"
+        android:textDirection="ltr"
+        android:textSize="9sp" />
+
+    <ToggleButton
+        android:id="@+id/T3s"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_row="4"
+        android:layout_column="11"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="6dp"
+        android:textOn="T3s"
+        android:textOff="T3s"
+        android:textDirection="ltr"
+        android:textSize="9sp" />
+
+    <ToggleButton
+        android:id="@+id/T2s"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_row="4"
+        android:layout_column="12"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="6dp"
+        android:textOn="T2s"
+        android:textOff="T2s"
+        android:textDirection="ltr"
+        android:textSize="9sp" />
+
+    <ToggleButton
+        android:id="@+id/J8o"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_row="6"
+        android:layout_column="3"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="6dp"
+        android:textOn="J8o"
+        android:textOff="J8o"
+        android:textDirection="ltr"
+        android:textSize="9sp" />
+
+    <ToggleButton
+        android:id="@+id/AQo"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_row="2"
+        android:layout_column="0"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="6dp"
+        android:textOn="AQo"
+        android:textOff="AQo"
+        android:textDirection="ltr"
+        android:textSize="9sp" />
+
+    <ToggleButton
+        android:id="@+id/ATo"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_row="4"
+        android:layout_column="0"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="6dp"
+        android:textOn="ATo"
+        android:textOff="ATo"
+        android:textDirection="ltr"
+        android:textSize="9sp" />
+
+    <ToggleButton
+        android:id="@+id/AKo"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_row="1"
+        android:layout_column="0"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="6dp"
+        android:textDirection="ltr"
+        android:textOff="AKo"
+        android:textOn="AKo"
+        android:textSize="9sp" />
+
+    <ToggleButton
+        android:id="@+id/KKp"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_row="1"
+        android:layout_column="1"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="6dp"
+        android:textDirection="ltr"
+        android:textOff="KKp"
+        android:textOn="KKp"
+        android:textSize="9sp" />
+
+    <ToggleButton
+        android:id="@+id/A9o"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_row="5"
+        android:layout_column="0"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="6dp"
+        android:textOn="A9o"
+        android:textOff="A9o"
+        android:textDirection="ltr"
+        android:textSize="9sp" />
+
+    <ToggleButton
+        android:id="@+id/A8o"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_row="6"
+        android:layout_column="0"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="6dp"
+        android:textOn="A8o"
+        android:textOff="A8o"
+        android:textDirection="ltr"
+        android:textSize="9sp" />
+
+    <ToggleButton
+        android:id="@+id/A7o"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_row="7"
+        android:layout_column="0"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="6dp"
+        android:textOn="A7o"
+        android:textOff="A7o"
+        android:textDirection="ltr"
+        android:textSize="9sp" />
+
+    <ToggleButton
+        android:id="@+id/A6o"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_row="8"
+        android:layout_column="0"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="6dp"
+        android:textOn="A6o"
+        android:textOff="A6o"
+        android:textDirection="ltr"
+        android:textSize="9sp" />
+
+    <ToggleButton
+        android:id="@+id/A5o"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_row="9"
+        android:layout_column="0"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="6dp"
+        android:textOn="A5o"
+        android:textOff="A5o"
+        android:textDirection="ltr"
+        android:textSize="9sp" />
+
+    <ToggleButton
+        android:id="@+id/A4o"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_row="10"
+        android:layout_column="0"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="6dp"
+        android:textOn="A4o"
+        android:textOff="A4o"
+        android:textDirection="ltr"
+        android:textSize="9sp" />
+
+    <ToggleButton
+        android:id="@+id/A3o"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_row="11"
+        android:layout_column="0"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="6dp"
+        android:textOn="A3o"
+        android:textOff="A3o"
+        android:textDirection="ltr"
+        android:textSize="9sp" />
+
+    <ToggleButton
+        android:id="@+id/A2o"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_row="12"
+        android:layout_column="0"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="6dp"
+        android:textOn="A2o"
+        android:textOff="A2o"
+        android:textDirection="ltr"
+        android:textSize="9sp" />
+
+    <ToggleButton
+        android:id="@+id/QQp"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_row="2"
+        android:layout_column="2"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="6dp"
+        android:textOn="QQp"
+        android:textOff="QQp"
+        android:textDirection="ltr"
+        android:textSize="9sp" />
+
+    <ToggleButton
+        android:id="@+id/JJp"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_row="3"
+        android:layout_column="3"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="6dp"
+        android:textOn="JJp"
+        android:textOff="JJp"
+        android:textDirection="ltr"
+        android:textSize="9sp" />
+
+    <ToggleButton
+        android:id="@+id/TTp"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_row="4"
+        android:layout_column="4"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="6dp"
+        android:textOn="TTp"
+        android:textOff="TTp"
+        android:textDirection="ltr"
+        android:textSize="9sp" />
+
+    <ToggleButton
+        android:id="@+id/_99p"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_row="5"
+        android:layout_column="5"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="6dp"
+        android:textOn="99p"
+        android:textOff="99p"
+        android:textDirection="ltr"
+        android:textSize="9sp" />
+
+    <ToggleButton
+        android:id="@+id/_88p"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_row="6"
+        android:layout_column="6"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="6dp"
+        android:textOn="88p"
+        android:textOff="88p"
+        android:textDirection="ltr"
+        android:textSize="9sp" />
+
+    <ToggleButton
+        android:id="@+id/_77p"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_row="7"
+        android:layout_column="7"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="6dp"
+        android:textOn="77p"
+        android:textOff="77p"
+        android:textDirection="ltr"
+        android:textSize="9sp" />
+
+    <ToggleButton
+        android:id="@+id/_66p"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_row="8"
+        android:layout_column="8"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="6dp"
+        android:textOn="66p"
+        android:textOff="66p"
+        android:textDirection="ltr"
+        android:textSize="9sp" />
+
+    <ToggleButton
+        android:id="@+id/_55p"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_row="9"
+        android:layout_column="9"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="6dp"
+        android:textOn="55p"
+        android:textOff="55p"
+        android:textDirection="ltr"
+        android:textSize="9sp" />
+
+    <ToggleButton
+        android:id="@+id/_44p"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_row="10"
+        android:layout_column="10"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="6dp"
+        android:textOn="44p"
+        android:textOff="44p"
+        android:textDirection="ltr"
+        android:textSize="9sp" />
+
+    <ToggleButton
+        android:id="@+id/_33p"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_row="11"
+        android:layout_column="11"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="6dp"
+        android:textOn="33p"
+        android:textOff="33p"
+        android:textDirection="ltr"
+        android:textSize="9sp" />
+
+    <ToggleButton
+        android:id="@+id/_22p"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_row="12"
+        android:layout_column="12"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="6dp"
+        android:textOn="22p"
+        android:textOff="22p"
+        android:textDirection="ltr"
+        android:textSize="9sp" />
+
+    <ToggleButton
+        android:id="@+id/KQs"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_row="1"
+        android:layout_column="2"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="6dp"
+        android:textOn="KQs"
+        android:textOff="KQs"
+        android:textDirection="ltr"
+        android:textSize="9sp" />
+
+    <ToggleButton
+        android:id="@+id/KQo"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_row="2"
+        android:layout_column="1"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="6dp"
+        android:textOn="KQo"
+        android:textOff="KQo"
+        android:textDirection="ltr"
+        android:textSize="9sp" />
+
+    <ToggleButton
+        android:id="@+id/KJs"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_row="1"
+        android:layout_column="3"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="6dp"
+        android:textOn="KJs"
+        android:textOff="KJs"
+        android:textDirection="ltr"
+        android:textSize="9sp" />
+
+    <ToggleButton
+        android:id="@+id/KTs"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_row="1"
+        android:layout_column="4"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="6dp"
+        android:textOn="KTs"
+        android:textOff="KTs"
+        android:textDirection="ltr"
+        android:textSize="9sp" />
+
+    <ToggleButton
+        android:id="@+id/KJo"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_row="3"
+        android:layout_column="1"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="6dp"
+        android:textOn="KJo"
+        android:textOff="KJo"
+        android:textDirection="ltr"
+        android:textSize="9sp" />
+
+    <ToggleButton
+        android:id="@+id/KTo"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_row="4"
+        android:layout_column="1"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="6dp"
+        android:textOn="KTo"
+        android:textOff="KTo"
+        android:textDirection="ltr"
+        android:textSize="9sp" />
+
+    <ToggleButton
+        android:id="@+id/K5s"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_row="1"
+        android:layout_column="9"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="6dp"
+        android:textOn="K5s"
+        android:textOff="K5s"
+        android:textDirection="ltr"
+        android:textSize="9sp" />
+
+    <ToggleButton
+        android:id="@+id/K4s"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_row="1"
+        android:layout_column="10"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="6dp"
+        android:textOn="K4s"
+        android:textOff="K4s"
+        android:textDirection="ltr"
+        android:textSize="9sp" />
+
+    <ToggleButton
+        android:id="@+id/_92o"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_row="12"
+        android:layout_column="5"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="6dp"
+        android:textOn="92o"
+        android:textOff="92o"
+        android:textDirection="ltr"
+        android:textSize="9sp" />
+
+    <ToggleButton
+        android:id="@+id/T2o"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_row="12"
+        android:layout_column="4"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="6dp"
+        android:textOn="T2o"
+        android:textOff="T2o"
+        android:textDirection="ltr"
+        android:textSize="9sp" />
+
+    <ToggleButton
+        android:id="@+id/_96s"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_row="5"
+        android:layout_column="8"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="6dp"
+        android:textOn="96s"
+        android:textOff="96s"
+        android:textDirection="ltr"
+        android:textSize="9sp" />
+
+    <ToggleButton
+        android:id="@+id/J7s"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_row="3"
+        android:layout_column="7"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="6dp"
+        android:textOn="J7s"
+        android:textOff="J7s"
+        android:textDirection="ltr"
+        android:textSize="9sp" />
+
+    <ToggleButton
+        android:id="@+id/J9s"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_row="3"
+        android:layout_column="5"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="6dp"
+        android:textOn="J9s"
+        android:textOff="J9s"
+        android:textDirection="ltr"
+        android:textSize="9sp" />
+
+    <ToggleButton
+        android:id="@+id/T9s"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_row="4"
+        android:layout_column="5"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="6dp"
+        android:textOn="T9s"
+        android:textOff="T9s"
+        android:textDirection="ltr"
+        android:textSize="9sp" />
+
+    <ToggleButton
+        android:id="@+id/T8o"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_row="6"
+        android:layout_column="4"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="6dp"
+        android:textOn="T8o"
+        android:textOff="T8o"
+        android:textDirection="ltr"
+        android:textSize="9sp" />
+
+    <ToggleButton
+        android:id="@+id/Q7o"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_row="7"
+        android:layout_column="2"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="6dp"
+        android:textOn="Q7o"
+        android:textOff="Q7o"
+        android:textDirection="ltr"
+        android:textSize="9sp" />
+
+    <ToggleButton
+        android:id="@+id/Q4o"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_row="10"
+        android:layout_column="2"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="6dp"
+        android:textOn="Q4o"
+        android:textOff="Q4o"
+        android:textDirection="ltr"
+        android:textSize="9sp" />
+
+    <ToggleButton
+        android:id="@+id/T4o"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_row="10"
+        android:layout_column="4"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="6dp"
+        android:textOn="T4o"
+        android:textOff="T4o"
+        android:textDirection="ltr"
+        android:textSize="9sp" />
+
+    <ToggleButton
+        android:id="@+id/_84o"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_row="10"
+        android:layout_column="6"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="6dp"
+        android:textOn="84o"
+        android:textOff="84o"
+        android:textDirection="ltr"
+        android:textSize="9sp" />
+
+    <ToggleButton
+        android:id="@+id/_94o"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_row="10"
+        android:layout_column="5"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="6dp"
+        android:textOn="94o"
+        android:textOff="94o"
+        android:textDirection="ltr"
+        android:textSize="9sp" />
+
+    <ToggleButton
+        android:id="@+id/J5s"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_row="3"
+        android:layout_column="9"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="6dp"
+        android:textOn="J5s"
+        android:textOff="J5s"
+        android:textDirection="ltr"
+        android:textSize="9sp" />
+
+    <ToggleButton
+        android:id="@+id/_92s"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_row="5"
+        android:layout_column="12"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="6dp"
+        android:textOn="92s"
+        android:textOff="92s"
+        android:textDirection="ltr"
+        android:textSize="9sp" />
+
+    <ToggleButton
+        android:id="@+id/_94s"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_row="5"
+        android:layout_column="10"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="6dp"
+        android:textOn="94s"
+        android:textOff="94s"
+        android:textDirection="ltr"
+        android:textSize="9sp" />
+
+    <ToggleButton
+        android:id="@+id/_97o"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_row="7"
+        android:layout_column="5"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="6dp"
+        android:textOn="97o"
+        android:textOff="97o"
+        android:textDirection="ltr"
+        android:textSize="9sp" />
+
+    <ToggleButton
+        android:id="@+id/J4o"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_row="10"
+        android:layout_column="3"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="6dp"
+        android:textOn="J4o"
+        android:textOff="J4o"
+        android:textDirection="ltr"
+        android:textSize="9sp" />
+
+    <ToggleButton
+        android:id="@+id/K4o"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_row="10"
+        android:layout_column="1"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="6dp"
+        android:textOn="K4o"
+        android:textOff="K4o"
+        android:textDirection="ltr"
+        android:textSize="9sp" />
+
+    <ToggleButton
+        android:id="@+id/JTo"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_row="4"
+        android:layout_column="3"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="6dp"
+        android:textOn="JTo"
+        android:textOff="JTo"
+        android:textDirection="ltr"
+        android:textSize="9sp" />
+
+    <ToggleButton
+        android:id="@+id/T7o"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_row="7"
+        android:layout_column="4"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="6dp"
+        android:textOn="T7o"
+        android:textOff="T7o"
+        android:textDirection="ltr"
+        android:textSize="9sp" />
+
+    <ToggleButton
+        android:id="@+id/Q6o"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_row="8"
+        android:layout_column="2"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="6dp"
+        android:textOn="Q6o"
+        android:textOff="Q6o"
+        android:textDirection="ltr"
+        android:textSize="9sp" />
+
+    <ToggleButton
+        android:id="@+id/_74s"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_row="7"
+        android:layout_column="10"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="6dp"
+        android:textOn="74s"
+        android:textOff="74s"
+        android:textDirection="ltr"
+        android:textSize="9sp" />
+
+    <ToggleButton
+        android:id="@+id/T5s"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_row="4"
+        android:layout_column="9"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="6dp"
+        android:textOn="T5s"
+        android:textOff="T5s"
+        android:textDirection="ltr"
+        android:textSize="9sp" />
+
+    <ToggleButton
+        android:id="@+id/_75o"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_row="9"
+        android:layout_column="7"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="6dp"
+        android:textOn="75o"
+        android:textOff="75o"
+        android:textDirection="ltr"
+        android:textSize="9sp" />
+
+    <ToggleButton
+        android:id="@+id/Q3o"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_row="11"
+        android:layout_column="2"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="6dp"
+        android:textOn="Q3o"
+        android:textOff="Q3o"
+        android:textDirection="ltr"
+        android:textSize="9sp" />
+
+    <ToggleButton
+        android:id="@+id/T3o"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_row="11"
+        android:layout_column="4"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="6dp"
+        android:textOn="T3o"
+        android:textOff="T3o"
+        android:textDirection="ltr"
+        android:textSize="9sp" />
+
+    <ToggleButton
+        android:id="@+id/_74o"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_row="10"
+        android:layout_column="7"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="6dp"
+        android:textOn="74o"
+        android:textOff="74o"
+        android:textDirection="ltr"
+        android:textSize="9sp" />
+
+    <ToggleButton
+        android:id="@+id/Q3s"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_row="2"
+        android:layout_column="11"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="6dp"
+        android:textOn="Q3s"
+        android:textOff="Q3s"
+        android:textDirection="ltr"
+        android:textSize="9sp" />
+
+    <ToggleButton
+        android:id="@+id/_95o"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_row="9"
+        android:layout_column="5"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="6dp"
+        android:textOn="95o"
+        android:textOff="95o"
+        android:textDirection="ltr"
+        android:textSize="9sp" />
+
+    <ToggleButton
+        android:id="@+id/J5o"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_row="9"
+        android:layout_column="3"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="6dp"
+        android:textOn="J5o"
+        android:textOff="J5o"
+        android:textDirection="ltr"
+        android:textSize="9sp" />
+
+    <ToggleButton
+        android:id="@+id/J3s"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_row="3"
+        android:layout_column="11"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="6dp"
+        android:textOn="J3s"
+        android:textOff="J3s"
+        android:textDirection="ltr"
+        android:textSize="9sp" />
+
+    <ToggleButton
+        android:id="@+id/Q9o"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_row="5"
+        android:layout_column="2"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="6dp"
+        android:textOn="Q9o"
+        android:textOff="Q9o"
+        android:textDirection="ltr"
+        android:textSize="9sp" />
+
+    <ToggleButton
+        android:id="@+id/Q8o"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_row="6"
+        android:layout_column="2"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="6dp"
+        android:textOn="Q8o"
+        android:textOff="Q8o"
+        android:textDirection="ltr"
+        android:textSize="9sp" />
+
+    <ToggleButton
+        android:id="@+id/_53s"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_row="9"
+        android:layout_column="11"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="6dp"
+        android:textOn="53s"
+        android:textOff="53s"
+        android:textDirection="ltr"
+        android:textSize="9sp" />
+
+    <ToggleButton
+        android:id="@+id/_54s"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_row="9"
+        android:layout_column="10"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="6dp"
+        android:textOn="54s"
+        android:textOff="54s"
+        android:textDirection="ltr"
+        android:textSize="9sp" />
+
+    <ToggleButton
+        android:id="@+id/K5o"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_row="9"
+        android:layout_column="1"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="6dp"
+        android:textOn="K5o"
+        android:textOff="K5o"
+        android:textDirection="ltr"
+        android:textSize="9sp" />
+
+    <ToggleButton
+        android:id="@+id/T5o"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_row="9"
+        android:layout_column="4"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="6dp"
+        android:textOn="T5o"
+        android:textOff="T5o"
+        android:textDirection="ltr"
+        android:textSize="9sp" />
+
+    <ToggleButton
+        android:id="@+id/_87s"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_row="6"
+        android:layout_column="7"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="6dp"
+        android:textOn="87s"
+        android:textOff="87S"
+        android:textDirection="ltr"
+        android:textSize="9sp" />
+
+    <ToggleButton
+        android:id="@+id/T8s"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_row="4"
+        android:layout_column="6"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="6dp"
+        android:textOn="T8s"
+        android:textOff="T8s"
+        android:textDirection="ltr"
+        android:textSize="9sp" />
+
+    <ToggleButton
+        android:id="@+id/J4s"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_row="3"
+        android:layout_column="10"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="6dp"
+        android:textOn="J4s"
+        android:textOff="J4s"
+        android:textDirection="ltr"
+        android:textSize="9sp" />
+
+    <ToggleButton
+        android:id="@+id/J8s"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_row="3"
+        android:layout_column="6"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="6dp"
+        android:textOn="J8s"
+        android:textOff="J8s"
+        android:textDirection="ltr"
+        android:textSize="9sp" />
+
+    <ToggleButton
+        android:id="@+id/JTs"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_row="3"
+        android:layout_column="4"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="6dp"
+        android:textOn="JTs"
+        android:textOff="JTs"
+        android:textDirection="ltr"
+        android:textSize="9sp" />
+
+    <ToggleButton
+        android:id="@+id/Q2s"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_row="2"
+        android:layout_column="12"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="6dp"
+        android:textOn="Q2s"
+        android:textOff="Q2s"
+        android:textDirection="ltr"
+        android:textSize="9sp" />
+
+    <ToggleButton
+        android:id="@+id/Q4s"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_row="2"
+        android:layout_column="10"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="6dp"
+        android:textOn="Q4s"
+        android:textOff="Q4s"
+        android:textDirection="ltr"
+        android:textSize="9sp" />
+
+    <ToggleButton
+        android:id="@+id/Q5s"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_row="2"
+        android:layout_column="9"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="6dp"
+        android:textOn="Q5s"
+        android:textOff="Q5s"
+        android:textDirection="ltr"
+        android:textSize="9sp" />
+
+    <ToggleButton
+        android:id="@+id/Q6s"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_row="2"
+        android:layout_column="8"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="6dp"
+        android:textOn="Q6s"
+        android:textOff="Q6s"
+        android:textDirection="ltr"
+        android:textSize="9sp" />
+
+    <ToggleButton
+        android:id="@+id/Q7s"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_row="2"
+        android:layout_column="7"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="6dp"
+        android:textOn="Q7s"
+        android:textOff="Q7s"
+        android:textDirection="ltr"
+        android:textSize="9sp" />
+
+    <ToggleButton
+        android:id="@+id/_93o"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_row="11"
+        android:layout_column="5"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="6dp"
+        android:textOn="93o"
+        android:textOff="93o"
+        android:textDirection="ltr"
+        android:textSize="9sp" />
+
+    <ToggleButton
+        android:id="@+id/_83o"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_row="11"
+        android:layout_column="6"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="6dp"
+        android:textOn="83o"
+        android:textOff="83o"
+        android:textDirection="ltr"
+        android:textSize="9sp" />
+
+    <ToggleButton
+        android:id="@+id/_53o"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_row="11"
+        android:layout_column="9"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="6dp"
+        android:textOn="53o"
+        android:textOff="53o"
+        android:textDirection="ltr"
+        android:textSize="9sp" />
+
+    <ToggleButton
+        android:id="@+id/Q8s"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_row="2"
+        android:layout_column="6"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="6dp"
+        android:textOn="Q8s"
+        android:textOff="Q8s"
+        android:textDirection="ltr"
+        android:textSize="9sp" />
+
+    <ToggleButton
+        android:id="@+id/J3o"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_row="11"
+        android:layout_column="3"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="6dp"
+        android:textOn="J3o"
+        android:textOff="J3o"
+        android:textDirection="ltr"
+        android:textSize="9sp" />
+
+    <ToggleButton
+        android:id="@+id/_73o"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_row="11"
+        android:layout_column="7"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="6dp"
+        android:textOn="73o"
+        android:textOff="73o"
+        android:textDirection="ltr"
+        android:textSize="9sp" />
+
+    <ToggleButton
+        android:id="@+id/_64o"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_row="10"
+        android:layout_column="8"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="6dp"
+        android:textOn="64o"
+        android:textOff="64o"
+        android:textDirection="ltr"
+        android:textSize="9sp" />
+
+    <ToggleButton
+        android:id="@+id/_54o"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_row="10"
+        android:layout_column="9"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="6dp"
+        android:textOn="54o"
+        android:textOff="54o"
+        android:textDirection="ltr"
+        android:textSize="9sp" />
+
+    <ToggleButton
+        android:id="@+id/_63o"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_row="11"
+        android:layout_column="8"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="6dp"
+        android:textOn="63o"
+        android:textOff="63o"
+        android:textDirection="ltr"
+        android:textSize="9sp" />
+
+    <ToggleButton
+        android:id="@+id/_43o"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_row="11"
+        android:layout_column="10"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="6dp"
+        android:textOn="43o"
+        android:textOff="43o"
+        android:textDirection="ltr"
+        android:textSize="9sp" />
+
+    <ToggleButton
+        android:id="@+id/_43s"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_row="10"
+        android:layout_column="11"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="6dp"
+        android:textDirection="ltr"
+        android:textOff="43s"
+        android:textOn="43s"
+        android:textSize="9sp" />
+
+    <ToggleButton
+        android:id="@+id/K3o"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_row="11"
+        android:layout_column="1"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="6dp"
+        android:textOn="K3o"
+        android:textOff="K3o"
+        android:textDirection="ltr"
+        android:textSize="9sp" />
+
+    <ToggleButton
+        android:id="@+id/K2o"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_row="12"
+        android:layout_column="1"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="6dp"
+        android:textOn="K2o"
+        android:textOff="K2o"
+        android:textDirection="ltr"
+        android:textSize="9sp" />
+
+    <ToggleButton
+        android:id="@+id/Q2o"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_row="12"
+        android:layout_column="2"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="6dp"
+        android:textOn="Q2o"
+        android:textOff="Q2o"
+        android:textDirection="ltr"
+        android:textSize="9sp" />
+
+    <ToggleButton
+        android:id="@+id/J2o"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_row="12"
+        android:layout_column="3"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="6dp"
+        android:textOn="J2o"
+        android:textOff="J2o"
+        android:textDirection="ltr"
+        android:textSize="9sp" />
+
+    <ToggleButton
+        android:id="@+id/_82o"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_row="12"
+        android:layout_column="6"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="6dp"
+        android:textOn="82o"
+        android:textOff="82o"
+        android:textDirection="ltr"
+        android:textSize="9sp" />
+
+    <ToggleButton
+        android:id="@+id/_72o"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_row="12"
+        android:layout_column="7"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="6dp"
+        android:textOn="72o"
+        android:textOff="72o"
+        android:textDirection="ltr"
+        android:textSize="9sp" />
+
+    <ToggleButton
+        android:id="@+id/_62o"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_row="12"
+        android:layout_column="8"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="6dp"
+        android:textOn="62o"
+        android:textOff="62o"
+        android:textDirection="ltr"
+        android:textSize="9sp" />
+
+    <ToggleButton
+        android:id="@+id/_52o"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_row="12"
+        android:layout_column="9"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="6dp"
+        android:textOn="52o"
+        android:textOff="52o"
+        android:textDirection="ltr"
+        android:textSize="9sp" />
+
+
+    <ToggleButton
+        android:id="@+id/_42o"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_row="12"
+        android:layout_column="10"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="6dp"
+        android:textOn="42o"
+        android:textOff="42o"
+        android:textDirection="ltr"
+        android:textSize="9sp" />
+
+    <ToggleButton
+        android:id="@+id/_72s"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_row="7"
+        android:layout_column="12"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="6dp"
+        android:textOn="72s"
+        android:textOff="72s"
+        android:textDirection="ltr"
+        android:textSize="9sp" />
+
+    <ToggleButton
+        android:id="@+id/_62s"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_row="8"
+        android:layout_column="12"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="6dp"
+        android:textOn="62s"
+        android:textOff="62s"
+        android:textDirection="ltr"
+        android:textSize="9sp" />
+
+    <ToggleButton
+        android:id="@+id/_52s"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_row="9"
+        android:layout_column="12"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="6dp"
+        android:textOn="52s"
+        android:textOff="52s"
+        android:textDirection="ltr"
+        android:textSize="9sp" />
+
+    <ToggleButton
+        android:id="@+id/_42s"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_row="10"
+        android:layout_column="12"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="6dp"
+        android:textOn="42s"
+        android:textOff="42s"
+        android:textDirection="ltr"
+        android:textSize="9sp" />
+
+    <ToggleButton
+        android:id="@+id/_32s"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_row="11"
+        android:layout_column="12"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="6dp"
+        android:textOn="32s"
+        android:textOff="32s"
+        android:textDirection="ltr"
+        android:textSize="9sp" />
+
+    <ToggleButton
+        android:id="@+id/_32o"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_row="12"
+        android:layout_column="11"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="6dp"
+        android:textOn="32o"
+        android:textOff="32o"
+        android:textDirection="ltr"
+        android:textSize="9sp" />
+
+    <ToggleButton
+        android:id="@+id/K2s"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_row="1"
+        android:layout_column="12"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="6dp"
+        android:textOn="K2s"
+        android:textOff="K2s"
+        android:textDirection="ltr"
+        android:textSize="9sp" />
+
+    <ToggleButton
+        android:id="@+id/K3s"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_row="1"
+        android:layout_column="11"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="6dp"
+        android:textOn="K3s"
+        android:textOff="K3s"
+        android:textDirection="ltr"
+        android:textSize="9sp" />
+
+    <ToggleButton
+        android:id="@+id/K6s"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_row="1"
+        android:layout_column="8"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="6dp"
+        android:textOn="K6s"
+        android:textOff="K6s"
+        android:textDirection="ltr"
+        android:textSize="9sp" />
+
+    <ToggleButton
+        android:id="@+id/K7s"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_row="1"
+        android:layout_column="7"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="6dp"
+        android:textOn="K7s"
+        android:textOff="K7s"
+        android:textDirection="ltr"
+        android:textSize="9sp" />
+
+    <ToggleButton
+        android:id="@+id/QTs"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_row="2"
+        android:layout_column="4"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="6dp"
+        android:textOn="QTs"
+        android:textOff="QTs"
+        android:textDirection="ltr"
+        android:textSize="9sp" />
+
+    <ToggleButton
+        android:id="@+id/QJs"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_row="2"
+        android:layout_column="3"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="6dp"
+        android:textOn="QJs"
+        android:textOff="QJs"
+        android:textDirection="ltr"
+        android:textSize="9sp" />
+
+    <ToggleButton
+        android:id="@+id/QJo"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_row="3"
+        android:layout_column="2"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="6dp"
+        android:textOn="QJo"
+        android:textOff="QJo"
+        android:textDirection="ltr"
+        android:textSize="9sp" />
+
+    <ToggleButton
+        android:id="@+id/K9o"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_row="5"
+        android:layout_column="1"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="6dp"
+        android:textOn="K9o"
+        android:textOff="K9o"
+        android:textDirection="ltr"
+        android:textSize="9sp" />
+
+    <ToggleButton
+        android:id="@+id/K8s"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_row="1"
+        android:layout_column="6"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="6dp"
+        android:textOn="K8s"
+        android:textOff="K8s"
+        android:textDirection="ltr"
+        android:textSize="9sp" />
+
+    <ToggleButton
+        android:id="@+id/K9s"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_row="1"
+        android:layout_column="5"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="6dp"
+        android:textOn="K9s"
+        android:textOff="K9s"
+        android:textDirection="ltr"
+        android:textSize="9sp" />
+
+    <ToggleButton
+        android:id="@+id/AJo"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_row="3"
+        android:layout_column="0"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="6dp"
+        android:textOn="AJo"
+        android:textOff="AJo"
+        android:textDirection="ltr"
+        android:textSize="9sp" />
+
+    <ToggleButton
+        android:id="@+id/AQs"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_row="0"
+        android:layout_column="2"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="6dp"
+        android:textOn="AQs"
+        android:textOff="AQs"
+        android:textDirection="ltr"
+        android:textSize="9sp" />
+
+    <Button
+        android:id="@+id/back_grid"
+        android:layout_width="29dp"
+        android:layout_height="38dp"
+        android:layout_row="13"
+        android:layout_column="12"
+        android:text="@string/back_grid" />
+
+    <EditText
+        android:id="@+id/edit"
+        android:paddingBottom="10dp"
+        android:layout_width="10dp"
+        android:layout_height="5dp"
+        android:layout_row="14"
+        android:layout_column="3"
+        android:ems="10"
+        android:visibility="visible"
+        android:text="" />
+
+
+</GridLayout>

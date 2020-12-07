@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">PokerHelper</string>
+    <string name="dev_name">Made by Fabian Casanova</string>
+    <string name="add_new_player">Add New Player</string>
+    <string name="open_existing">Open Existing Player</string>
+    <string name="pot_odds">Pot Odds Calculator</string>
+    <string name="addNewFrag">Add New Player Name</string>
+    <string name="back">Back</string>
+    <string name="next">Next</string>
+    <string name="name">Name</string>
+    <string name="back_grid">&lt;</string>
+
+    <!-- playerinfo variables -->
+    <string name="player_info_title">Player Information</string>
+    <string name="playername">Player Name:</string>
+    <string name="playerposition">Position:</string>
+    <string-array name="positionnames">
+        <item>UTG</item>
+        <item>Middle Position</item>
+        <item>Late Position</item>
+        <item>Cutoff</item>
+        <item>Button</item>
+        <item>Small Blind</item>
+        <item>Big Blind</item>
+    </string-array>
+    <string name="handrange">Hand Range:</string>
+    <string name="playernotes">Notes:</string>
+
+    <!-- pot odds page -->
+
+    <string name="title">Pot Odds Calculator</string>
+    <string name="villian">Villian Bet:</string>
+    <string name="potsize">Pot Amount Before Bet:</string>
+    <string name="potratio">Pot Ratio:</string>
+    <string name="outs">Number Of Outs:</string>
+    <string name="outsratio">Outs Ratio:</string>
+    <string name="callorfold">Call or Fold:</string>
+</resources>

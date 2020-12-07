@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/pot_odds_container"
+    android:layout_width="match_parent"
+    android:background="#f8ccb8"
+    android:layout_height="match_parent"
+    tools:context="com.phatsmalone.fragments.PotOddsFrag">
+
+
+    <TextView
+        android:id="@+id/potoddstitle"
+        android:layout_width="236dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="64dp"
+        android:layout_marginEnd="92dp"
+        android:text="@string/title"
+        android:textSize="26dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/villian"
+        android:layout_width="134dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="160dp"
+        android:text="@string/villian"
+        android:textSize="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/potbeforebet"
+        android:layout_width="174dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="28dp"
+        android:text="@string/potsize"
+        android:textSize="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/villian" />
+
+    <TextView
+        android:id="@+id/villianratio"
+        android:layout_width="165dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/potratio"
+        android:textSize="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/potbeforebet" />
+
+    <TextView
+        android:id="@+id/outs"
+        android:layout_width="159dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="36dp"
+        android:text="@string/outs"
+        android:textSize="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/villianratio" />
+
+    <TextView
+        android:id="@+id/outsratio"
+        android:layout_width="159dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/outsratio"
+        android:textSize="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/outs" />
+
+    <TextView
+        android:id="@+id/outsratio_output"
+        android:layout_width="199dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="32dp"
+        android:textSize="18dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.448"
+        app:layout_constraintStart_toEndOf="@+id/outsratio"
+        app:layout_constraintTop_toBottomOf="@+id/outsinput" />
+
+    <EditText
+        android:id="@+id/villianinput"
+        android:layout_width="157dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="40dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+
+        app:layout_constraintStart_toEndOf="@+id/villian"
+        app:layout_constraintTop_toBottomOf="@+id/potoddstitle" />
+
+    <EditText
+        android:id="@+id/potsizeinput"
+        android:layout_width="118dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="24dp"
+        android:ems="10"
+        app:layout_constraintStart_toEndOf="@+id/potbeforebet"
+        app:layout_constraintTop_toBottomOf="@+id/villianinput" />
+
+    <TextView
+        android:id="@+id/potratio_output"
+        android:layout_width="190dp"
+
+        android:layout_height="47dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="28dp"
+        android:textSize="18dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/villianratio"
+        app:layout_constraintTop_toBottomOf="@+id/potsizeinput" />
+
+    <EditText
+        android:id="@+id/outsinput"
+        android:layout_width="226dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="36dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/outs"
+        app:layout_constraintTop_toBottomOf="@+id/potratio_output" />
+
+    <TextView
+        android:id="@+id/callorfold"
+        android:layout_width="152dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="44dp"
+        android:text="@string/callorfold"
+        android:textSize="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/outsratio" />
+
+    <TextView
+        android:id="@+id/cof_output"
+        android:layout_width="135dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="96dp"
+        android:textSize="18dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/callorfold"
+        app:layout_constraintTop_toBottomOf="@+id/outsratio_output" />
+
+    <Button
+        android:id="@+id/calculate"
+        android:layout_width="107dp"
+        android:layout_height="53dp"
+        android:layout_marginEnd="92dp"
+        android:layout_marginBottom="48dp"
+        android:text="calculate"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.055"
+        app:layout_constraintStart_toEndOf="@+id/backbuttonpotodds" />
+
+    <Button
+        android:id="@+id/backbuttonpotodds"
+        android:layout_width="96dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="88dp"
+        android:layout_marginBottom="48dp"
+        android:text="back"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
